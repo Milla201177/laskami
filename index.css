@@ -1,0 +1,94 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+
+@import url(./blocks/page/page.css);
+@import url(./blocks/title/title.css);
+@import url(./blocks/span/span.css);
+@import url(./blocks/link/link.css);
+@import url(./blocks/button/button.css);
+@import url(./blocks/show/show.css);
+
+@import url(./blocks/container/container.css);
+
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__img/header__img.css);
+
+
+@import url(./blocks/cards/cards.css);
+@import url(./blocks/card/card.css);
+@import url(./blocks/card/__text/card__text.css);
+
+
+@import url(./blocks/home-page/home-page.css);
+@import url(./blocks/home-page/__item/home-page__item.css);
+@import url(./blocks/home-page/__list/home-page__list.css);
+@import url(./blocks/home-page/__logo/home-page__logo.css);
+@import url(./blocks/home-page/__img-container/home-page__img-container.css);
+@import url(./blocks/home-page/__img/home-page__img.css);
+@import url(./blocks/home-page/__link/home-page__link.css);
+
+
+@import url(./blocks/img-item/img-item.css);
+@import url(./blocks/img-item/img-item_m.css);
+
+@import url(./blocks/actor/__text/actor__text.css);
+@import url(./blocks/flex/flex.css);
+@import url(./blocks/flex/__block/flex__block.css);
+@import url(./blocks/flex/__text/flex__text.css);
+
+@import url(./blocks/collab/collab.css);
+@import url(./blocks/collab/__text/collab__text.css);
+
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__link/footer__link.css);
+@import url(./blocks/footer/__autor/footer__autor.css);
+@import url(./blocks/footer/__text/footer__text.css);
+@import url(./blocks/footer/__contacts/footer__contacts.css);
+@import url(./blocks/footer/__block/footer__block.css);
+@import url(./blocks/footer/__img/footer__img.css);
+
+@import url(blocks/portfolio/__header/portfolio__header.css);
+@import url(blocks/portfolio/__gallery/portfolio__gallery.css);
+@import url(blocks/portfolio/__logo/portfolio__logo.css);
+@import url(blocks/portfolio/__page/portfolio__page.css);
+@import url(blocks/portfolio/__item/portfolio__item.css);
+
+
+
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image-gallery .column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) {
+    .image-gallery {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .image-item {
+        padding: 0 10px;
+    }
+}
+
+
+
+
+
+
+
+
