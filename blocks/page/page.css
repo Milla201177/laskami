@@ -1,0 +1,17 @@
+.page {
+    background-color: #3a3e3e;
+    width: 100%;
+    color: #F7E9E9;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    font-size: 20px;
+    letter-spacing: 0.9px;
+}
+
+@media screen and (max-width: 710px) {
+    .page {
+        font-size: 15px;
+    }
+}

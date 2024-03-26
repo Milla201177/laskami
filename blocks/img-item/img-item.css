@@ -1,0 +1,7 @@
+.img-item {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    max-height: 100vh;
+}

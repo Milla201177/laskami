@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    height: 100%;
+    margin-left: 10px;
+    gap: 50px;
+    z-index: 100;
+    width: 5%;
+    justify-content: space-evenly
+}
+
+@media screen and (max-width: 710px){
+    .header {
+        width: 7%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        width: 10%;
+    }
+}

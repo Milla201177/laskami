@@ -1,0 +1,16 @@
+.home-page__logo {
+    margin-top: 60px;
+    margin-left: 50%;
+}
+
+@media screen and (max-width: 1100px) {
+    .home-page__logo {
+        margin: 20px auto 0;
+        display: flex;
+    }}
+
+@media screen and (max-width: 710px) {
+    .home-page__logo {
+        width: 30%;
+    }
+}

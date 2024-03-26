@@ -1,0 +1,12 @@
+.card__text {
+    text-align: right;
+    padding-top: 15px;
+    margin: 0;
+    text-shadow: 1px 1px 2px #3a3e3e;
+}
+
+@media screen and (max-width: 710px) {
+    .card__text {
+        padding-top: 0;
+    }
+}

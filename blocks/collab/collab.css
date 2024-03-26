@@ -1,0 +1,18 @@
+.collab {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-image: url("/images/IMG_8228_X 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    height: 80%;
+}
+
+@media screen and (max-width: 710px) {
+.collab {
+    min-height: max-content;
+}
+}

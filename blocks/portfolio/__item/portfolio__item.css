@@ -1,0 +1,15 @@
+.portfolio__item {
+    height: 300px;
+    width: auto;
+    object-fit: cover;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+    .portfolio__item {
+        width: 300px;
+        height: auto;
+        max-height: 480px;
+    }
+}

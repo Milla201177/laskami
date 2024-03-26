@@ -1,0 +1,23 @@
+.card {
+    display: grid;
+    grid-template-columns: 200px 200px 170px;
+    gap: 20px;
+    height: 30vh;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 710px) {
+    .card {
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-height: 710px) {
+    .card {
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+        gap: 10px;
+    }
+}

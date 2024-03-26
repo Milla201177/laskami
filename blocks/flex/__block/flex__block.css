@@ -1,0 +1,13 @@
+.flex__block {
+    width: 45%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+@media screen and (max-width: 710px) {
+    .flex__block {
+        width: 100%;
+    }
+}

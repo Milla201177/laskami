@@ -1,0 +1,15 @@
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 50px;
+    row-gap: 40px
+}
+
+@media screen and (max-width: 710px) {
+    .cards {
+        gap: 10px;
+    }
+}

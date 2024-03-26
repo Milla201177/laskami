@@ -1,0 +1,15 @@
+.flex__text {
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding-top: 15px;
+    margin: 0;
+}
+
+@media screen and (max-width: 710px) {
+    .flex__text {
+        font-size: 15px;
+        padding: 0;
+        margin: 0;
+    }
+}

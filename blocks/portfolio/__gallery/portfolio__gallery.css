@@ -1,0 +1,15 @@
+.portfolio__gallery {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 320px){
+.portfolio__gallery {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    }
+}
