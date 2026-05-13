@@ -2,6 +2,12 @@
     font-size: 25px;
     margin-top: 0;
     text-align: right;
+    transition: transform 0.28s ease, text-shadow 0.28s ease;
+}
+
+.actor__text:hover {
+    transform: translateY(-4px);
+    text-shadow: 0 10px 24px rgba(0, 0, 0, 0.3);
 }
 
 @media screen and (max-width: 710px) {

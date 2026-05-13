@@ -4,4 +4,12 @@
     overflow: hidden;
     object-fit: cover;
     max-height: 100vh;
+    border-radius: 22px;
+    transition: transform 0.35s ease, box-shadow 0.35s ease, filter 0.35s ease;
+}
+
+.img-item:hover {
+    transform: translateY(-6px) scale(1.01);
+    box-shadow: 0 24px 54px rgba(0, 0, 0, 0.28);
+    filter: brightness(1.03);
 }

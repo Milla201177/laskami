@@ -4,6 +4,12 @@
     font-size: 20px;
     letter-spacing: 1px;
     color: #F7E9E9;
+    transition: transform 0.28s ease, color 0.28s ease;
+}
+
+.footer__autor:hover {
+    transform: translateY(-3px);
+    color: #fff4f4;
 }
 
 @media screen and (max-width: 710px) {

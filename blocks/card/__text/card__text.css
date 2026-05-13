@@ -3,6 +3,14 @@
     padding-top: 15px;
     margin: 0;
     text-shadow: 1px 1px 2px #3a3e3e;
+    transition: transform 0.28s ease, color 0.28s ease, text-shadow 0.28s ease;
+    transform-origin: right center;
+}
+
+.card__text:hover {
+    transform: translateY(-4px);
+    color: #fff4f4;
+    text-shadow: 0 8px 20px rgba(0, 0, 0, 0.28);
 }
 
 @media screen and (max-width: 710px) {
