@@ -1,25 +1,21 @@
 .header {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    position: fixed;
-    height: 100%;
-    margin-left: 10px;
-    gap: 50px;
-    z-index: 100;
-    width: 5%;
-    justify-content: space-evenly
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+    margin-top: auto;
+    width: fit-content;
+    padding: 12px 16px;
+    border: 1px solid rgba(247, 233, 233, 0.14);
+    border-radius: 999px;
+    background: rgba(11, 17, 22, 0.42);
+    backdrop-filter: blur(16px);
 }
 
-@media screen and (max-width: 710px){
+@media screen and (max-width: 900px){
     .header {
-        width: 7%;
+        width: 100%;
         justify-content: center;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .header {
-        width: 10%;
+        border-radius: 20px;
     }
 }

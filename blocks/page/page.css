@@ -1,6 +1,8 @@
 .page {
     background-color: #3a3e3e;
     width: 100%;
+    min-width: 320px;
+    margin: 0;
     color: #F7E9E9;
     font-family: Oswald;
     font-style: normal;
@@ -8,6 +10,8 @@
     line-height: normal;
     font-size: 20px;
     letter-spacing: 0.9px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 @media screen and (max-width: 710px) {

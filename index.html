@@ -9,27 +9,36 @@
 </head>
 
 <body class="page">
-
-<div class="header">
-    <div><a target="_blank" class="link" href="https://instagram.com/laskamima?igshid=MmIzYWVlNDQ5Yg=="><img class="header__img" src="images/insta.svg" alt="qr"></a></div>
-    <div><a target="_blank" class="link" href="https://t.me/MLaska"><img class="header__img" src="images/tg.svg" alt="qr"></a></div>
-    <div><a target="_blank" class="link" href="https://vk.com/laska_mi"><img class="header__img" src="images/vk.svg" alt="qr"></a></div>
-    <div><a target="_blank" class="link" href="https://api.whatsapp.com/send?phone=79995317717"><img class="header__img" src="images/wapp.svg" alt="qr"></a></div>
-</div>
-
 <main>
     <section class="home-page">
-        <div>
-            <img src="./images/logo.svg" class="home-page__logo" alt="LASKAMI">
-            <ul class="home-page__list">
-                <a href="./portfolio/index.html" class="home-page__link link"><li class="home-page__item">portfolio</li></a>
-                <a target="_blank" href="./images/laskami.pdf" class="home-page__link link"><li class="home-page__item">composite card</li></a>
-                <a href="#magazine" class="home-page__link link"><li class="home-page__item">press</li></a>
-                <a href="#fashion_show" class="home-page__link link"><li class="home-page__item">fashion show</li></a>
-                <a href="#acting" class="home-page__link link"><li class="home-page__item">acting</li></a>
-                <a href="#collaboration" class="home-page__link link"><li class="home-page__item">collaboration</li></a>
-                <a href="#contacts" class="home-page__link link"><li class="home-page__item">contacts</li></a>
-            </ul>
+        <div class="home-page__content">
+            <div class="home-page__topbar">
+                <img src="./images/logo.svg" class="home-page__logo" alt="LASKAMI">
+                <button class="home-page__menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="home-menu">
+                    <span class="home-page__menu-line"></span>
+                    <span class="home-page__menu-line"></span>
+                    <span class="home-page__menu-line"></span>
+                </button>
+            </div>
+            <div class="home-page__panel" id="home-menu">
+                <nav class="home-page__nav" aria-label="Main navigation">
+                    <ul class="home-page__list">
+                        <li class="home-page__item"><a href="./portfolio/index.html" class="home-page__link link">portfolio</a></li>
+                        <li class="home-page__item"><a target="_blank" href="./images/laskami.pdf" class="home-page__link link">composite card</a></li>
+                        <li class="home-page__item"><a href="#magazine" class="home-page__link link">press</a></li>
+                        <li class="home-page__item"><a href="#fashion_show" class="home-page__link link">fashion show</a></li>
+                        <li class="home-page__item"><a href="#acting" class="home-page__link link">acting</a></li>
+                        <li class="home-page__item"><a href="#collaboration" class="home-page__link link">collaboration</a></li>
+                        <li class="home-page__item"><a href="#contacts" class="home-page__link link">contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="header">
+                    <div><a target="_blank" class="link" href="https://instagram.com/laskamima?igshid=MmIzYWVlNDQ5Yg=="><img class="header__img" src="images/insta.svg" alt="Instagram"></a></div>
+                    <div><a target="_blank" class="link" href="https://t.me/MLaska"><img class="header__img" src="images/tg.svg" alt="Telegram"></a></div>
+                    <div><a target="_blank" class="link" href="https://vk.com/laska_mi"><img class="header__img" src="images/vk.svg" alt="VK"></a></div>
+                    <div><a target="_blank" class="link" href="https://api.whatsapp.com/send?phone=79995317717"><img class="header__img" src="images/wapp.svg" alt="WhatsApp"></a></div>
+                </div>
+            </div>
         </div>
         <div class="home-page__img-container">
             <img class="home-page__img" alt="photo" src="images/IMG_4689.jpg">
