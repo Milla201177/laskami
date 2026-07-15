@@ -1,4 +1,12 @@
 .footer__img {
-    width: 70%;
-    max-height: 200px;
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 710px) {
+    .footer__img {
+        width: 18px;
+        height: 18px;
+    }
 }

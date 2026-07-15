@@ -1,11 +1,19 @@
 .footer__link {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    gap: 10px;
     transition: transform 0.28s ease, filter 0.28s ease;
 }
 
 .footer__link:hover {
     transform: translateY(-4px);
     filter: drop-shadow(0 10px 24px rgba(0, 0, 0, 0.28));
+}
+
+@media screen and (max-width: 710px) {
+    .footer__link {
+        gap: 6px;
+    }
 }
